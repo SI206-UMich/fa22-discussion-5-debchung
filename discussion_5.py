@@ -78,7 +78,7 @@ class TestAllMethods(unittest.TestCase):
 	def test_count_a(self):
 		self.assertEqual(count_a("anaconda"), 3)
 		self.assertEqual(count_a("adam levine"), 2)
-		#self.assertEqual(count_a("Adam Levine"), 2)
+		self.assertEqual(count_a("Adam Levine"), 2)
 		self.assertEqual(count_a("give me a hand"), 2)
 
 
